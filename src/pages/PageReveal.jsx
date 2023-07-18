@@ -12,7 +12,7 @@ const PageReveal = () => {
         const newProgress = prevProgress + 1;
         if (newProgress >= 100) {
           clearInterval(timer);
-          navigate("/home"); // Redirect to the specified route
+          navigate("/keysv2/home"); // Redirect to the specified route
           return 100;
         }
         return newProgress;
