@@ -45,7 +45,7 @@ const Header = () => {
 
   return (
     <header className="header-container w-full p-8 fixed top-0 left-0 flex items-center justify-between z-[500] lg:px-8">
-      <Link to="/home">
+      <Link to="/keys/home">
         <p className="text-[calc(16px_+_.75vw)] text-white font-['Cinzel'] tracking-tighter">19Keys</p>
       </Link>
       <div
@@ -69,11 +69,11 @@ const Header = () => {
           className="text-[calc(12px_+_2.75vw)] text-white font-['Cinzel'] transition duration-300 ease-in-out hover:text-white">
           Expertise
         </Link>
-        <Link 
+        {/* <Link 
           to=""
           className="text-[calc(12px_+_2.75vw)] text-white font-['Cinzel'] transition duration-300 ease-in-out hover:text-white">
           Tour
-        </Link>
+        </Link> */}
         <Link 
           to="/keys/education"
           target='_blank'
@@ -81,7 +81,7 @@ const Header = () => {
           Education
         </Link>
         <Link 
-          to="high-level-conversations"
+          to="/keys/high-level-conversations"
           className="text-[calc(12px_+_2.75vw)] text-white font-['Cinzel'] transition duration-300 ease-in-out hover:text-white">
           HLC Show
         </Link>
@@ -103,11 +103,11 @@ const Header = () => {
           className="text-[calc(8px_+_.75vw)] text-[#ffffffc4] font-['Cinzel'] transition duration-300 ease-in-out hover:text-white">
           Expertise
         </Link>
-        <Link
+        {/* <Link
           to=""
           className="text-[calc(8px_+_.75vw)] text-[#ffffffc4] font-['Cinzel'] transition duration-300 ease-in-out hover:text-white">
           Tour
-        </Link>
+        </Link> */}
         <Link
           to="/keys/education"
           className="text-[calc(8px_+_.75vw)] text-[#ffffffc4] font-['Cinzel'] transition duration-300 ease-in-out hover:text-white">

@@ -127,11 +127,11 @@ const Home = () => {
         {/* RATE SECTION */}
         <section
           ref={rateSection}
-          className="rate-section mt-[100vh] pt-[8em] pb-8 px-8 w-full h-screen flex items-center justify-center flex-col gap-[4em] bg-black z-[100] lg:pt-[unset]">
-          <h1 ref={rateTitle} className="text-center text-[calc(16px_+_2vw)] text-white font-['Cinzel'] font-thin italic lg:w-3/4">
+          className="rate-section mt-[100vh] pt-[8em] pb-8 px-8 w-full h-screen bg-black flex items-center justify-center flex-col gap-[4em] z-[100] lg:pt-[unset]">
+          <h1 ref={rateTitle} className="text-center text-[calc(16px_+_2.5vw)] font-['Cinzel'] text-white font-thin italic lg:w-3/4">
             "One of the leading voices and groundbreaking entrepreneurs of our generation."
           </h1>
-          <div ref={bookingRatesContainer} className="flex items-center justify-center flex-col gap-[calc(2em_+_4em)] md:flex-row">
+          {/* <div ref={bookingRatesContainer} className="flex items-center justify-center flex-col gap-[calc(2em_+_4em)] md:flex-row">
             <div className="flex items-center justify-center flex-col gap-2">
               <span className="text-center text-[calc(16px_+_.25vw)] text-white font-['Cinzel'] font-thin">Online Event Rate</span>
               <p className="text-center text-[calc(16px_+_1vw)] text-white font-['Cinzel'] font-thin">
@@ -150,7 +150,7 @@ const Home = () => {
                 $<span className="booking-price">19</span>k+
               </p>
             </div>
-          </div>
+          </div> */}
         </section>
         {/* ABOUT SECTION */}
         <section
@@ -164,7 +164,7 @@ const Home = () => {
               self-discovery and limitless growth.
             </p>
             <Link 
-            to='/expertise'
+            to='/keys/expertise'
             className="flex items-center gap-4">
               <button className="text-[calc(16px_+_.20vw)] text-white font-['Cinzel'] font-semibold">Learn More</button>
               <BsArrowRight className="arrow-right text-[calc(16px_+_.25vw)] text-white" />
@@ -194,7 +194,7 @@ const Home = () => {
               <div>
                 <h1 className="text-[calc(16px_+_.5vw)] text-white font-['Cinzel'] font-semibold">Technology Analyst</h1>
                 <Link 
-                to='/expertise'
+                to='/keys/expertise'
                 className="flex items-center gap-4 text-[calc(10px_+_.3vw)] text-[#ffffff99] font-['Source Sans Pro'] font-thin">
                   Education
                   <BsArrowUpRight />
@@ -208,7 +208,7 @@ const Home = () => {
               <div>
                 <h1 className="text-[calc(16px_+_.5vw)] text-white font-['Cinzel'] font-semibold">Public Speaker</h1>
                 <Link 
-                to='/booking'
+                to='/keys/booking'
                 className="flex items-center gap-4 text-[calc(10px_+_.3vw)] text-[#ffffff99] font-['Source Sans Pro'] font-thin">
                   Book 19Keys
                   <BsArrowUpRight />
@@ -224,7 +224,7 @@ const Home = () => {
         <section className='about-section px-8 w-full h-[25vh] flex items-center justify-center bg-[#111111] z-[100]'>
           <h1 className="text-center text-[calc(16px_+_.20vw)] text-white font-['Source Sans Pro'] font-thin">
             If you're interested or would like to chat about a potential collaboration, please get in <Link
-          to='/booking' 
+          to='/keys/booking' 
           className='relative before:contents-[""] before:w-full before:h-[1px] before:bg-white before:absolute before:left-0 before:bottom-[-2px]'>
             touch</Link>.
           </h1>
