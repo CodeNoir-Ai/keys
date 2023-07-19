@@ -60,12 +60,12 @@ const Header = () => {
       </div>
       <ul className={`fixed w-full h-screen inset-0 flex items-center justify-center flex-col gap-12 bg-black ${clicked ? 'lg:hidden' : 'hidden'}`} ref={menuRef}>
         <Link 
-          to="/home"
+          to="/keys/home"
           className="text-[calc(12px_+_2.75vw)] text-white font-['Cinzel'] transition duration-300 ease-in-out hover:text-white">
           Home
         </Link>
         <Link 
-          to="/expertise"
+          to="/keys/expertise"
           className="text-[calc(12px_+_2.75vw)] text-white font-['Cinzel'] transition duration-300 ease-in-out hover:text-white">
           Expertise
         </Link>
@@ -75,7 +75,7 @@ const Header = () => {
           Tour
         </Link>
         <Link 
-          to="/education"
+          to="/keys/education"
           target='_blank'
           className="text-[calc(12px_+_2.75vw)] text-white font-['Cinzel'] transition duration-300 ease-in-out hover:text-white">
           Education
@@ -92,14 +92,14 @@ const Header = () => {
           Shop
         </Link>
         <Link 
-          to="/booking"
+          to="/keys/booking"
           className="translate-y-[-10px] p-2 text-[calc(12px_+_2.75vw)] text-black bg-white font-['Cinzel'] border border-white rounded">
           Book 19Keys
         </Link>
       </ul>
       <ul className="hidden lg:flex lg:items-center lg:justify-between lg:gap-8 lg:translate-x-10">
         <Link
-          to="/expertise"
+          to="/keys/expertise"
           className="text-[calc(8px_+_.75vw)] text-[#ffffffc4] font-['Cinzel'] transition duration-300 ease-in-out hover:text-white">
           Expertise
         </Link>
@@ -109,12 +109,12 @@ const Header = () => {
           Tour
         </Link>
         <Link
-          to="/education"
+          to="/keys/education"
           className="text-[calc(8px_+_.75vw)] text-[#ffffffc4] font-['Cinzel'] transition duration-300 ease-in-out hover:text-white">
           Education
         </Link>
         <Link
-          to="/high-level-conversations"
+          to="/keys/high-level-conversations"
           className="text-[calc(8px_+_.75vw)] text-[#ffffffc4] font-['Cinzel'] transition duration-300 ease-in-out hover:text-white">
           HLC Show
         </Link>
@@ -126,7 +126,7 @@ const Header = () => {
         </Link>
       </ul>
       <Link
-        to="/booking"
+        to="/keys/booking"
         className="hidden lg:block lg:p-3 lg:text-[calc(8px_+_.75vw)] lg:text-white lg:font-['Cinzel'] lg:border lg:border-white lg:rounded lg:transition lg:duration-300 lg:ease-in-out lg:hover:text-black lg:hover:bg-white lg:hover:border">
         Book 19Keys
       </Link>

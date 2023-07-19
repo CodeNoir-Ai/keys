@@ -11,12 +11,12 @@ import HighLevelConversation from './pages/HighLevelConversation';
 const App = () => {
   return (
     <Routes>
-      <Route path='/keysv2/' element={<PageReveal />} />
-      <Route path='/keysv2/home' element={<Home />} />
-      <Route path='/keysv2/education' element={<Education />} />
-      <Route path='/keysv2/high-level-conversations' element={<HighLevelConversation />} />
-      <Route path='/keysv2/expertise' element={<Expertise />} />
-      <Route path='/keysv2/booking' element={<Booking />} />
+      <Route path='/keys/' element={<PageReveal />} />
+      <Route path='/keys/home' element={<Home />} />
+      <Route path='/keys/education' element={<Education />} />
+      <Route path='/keys/high-level-conversations' element={<HighLevelConversation />} />
+      <Route path='/keys/expertise' element={<Expertise />} />
+      <Route path='/keys/booking' element={<Booking />} />
     </Routes>
   );
 }
