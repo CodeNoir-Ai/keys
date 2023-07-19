@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/keys/static/css/main.b8214da6.css",
+    "main.js": "/keys/static/js/main.0fc3a029.js",
+    "static/media/keys-vid.mp4": "/keys/static/media/keys-vid.addfdf9b12bdc3128b9d.mp4",
+    "static/media/keys-full-eyl.jpeg": "/keys/static/media/keys-full-eyl.f03a227349059d93f0f0.jpeg",
+    "static/media/19keys.jpeg": "/keys/static/media/19keys.c52dbc7a52d833e8d43a.jpeg",
+    "static/media/keys-troy.jpeg": "/keys/static/media/keys-troy.9f5588e9aa302d2276c6.jpeg",
+    "static/media/keys-eyl.jpeg": "/keys/static/media/keys-eyl.0eb7c8e6753090fe15df.jpeg",
+    "static/media/19keys-two.jpeg": "/keys/static/media/19keys-two.52afb696925288177c6e.jpeg",
+    "static/media/19keys-three.jpeg": "/keys/static/media/19keys-three.2cf787c6ad2aaa61d863.jpeg",
+    "static/media/19keys-bw.jpeg": "/keys/static/media/19keys-bw.372b9563ff232a977658.jpeg",
+    "static/media/bg-animation.mp4": "/keys/static/media/bg-animation.106cc8503da08b9f5728.mp4",
+    "index.html": "/keys/index.html",
+    "main.b8214da6.css.map": "/keys/static/css/main.b8214da6.css.map",
+    "main.0fc3a029.js.map": "/keys/static/js/main.0fc3a029.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b8214da6.css",
+    "static/js/main.0fc3a029.js"
+  ]
+}
