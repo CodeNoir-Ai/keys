@@ -5,6 +5,7 @@ import PageReveal from './pages/PageReveal';
 import Expertise from './pages/Expertise';
 import Booking from './pages/Booking';
 import Education from './pages/Education';
+import ChatApp from './pages/ChatApp';
 import HighLevelConversation from './pages/HighLevelConversation';
 
 
@@ -17,6 +18,7 @@ const App = () => {
       <Route path='/keys/high-level-conversations' element={<HighLevelConversation />} />
       <Route path='/keys/expertise' element={<Expertise />} />
       <Route path='/keys/booking' element={<Booking />} />
+      <Route path = "/keys/chat" element = {<ChatApp />} />
     </Routes>
   );
 }

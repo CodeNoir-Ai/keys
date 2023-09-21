@@ -69,6 +69,11 @@ const Header = () => {
           className="text-[calc(12px_+_2.75vw)] text-white font-['Cinzel'] transition duration-300 ease-in-out hover:text-white">
           Expertise
         </Link>
+        <Link 
+          to="/keys/expertise"
+          className="text-[calc(12px_+_2.75vw)] text-white font-['Cinzel'] transition duration-300 ease-in-out hover:text-white">
+          Expertise
+        </Link>
         {/* <Link 
           to=""
           className="text-[calc(12px_+_2.75vw)] text-white font-['Cinzel'] transition duration-300 ease-in-out hover:text-white">
@@ -84,6 +89,12 @@ const Header = () => {
           to="/keys/high-level-conversations"
           className="text-[calc(12px_+_2.75vw)] text-white font-['Cinzel'] transition duration-300 ease-in-out hover:text-white">
           HLC Show
+        </Link>
+        <Link 
+          to="/keys/chat"
+          target='_blank'
+          className="text-[calc(12px_+_2.75vw)] text-white font-['Cinzel'] transition duration-300 ease-in-out hover:text-white">
+          Chat
         </Link>
         <Link 
           to="https://crownz19.com/"
@@ -103,11 +114,7 @@ const Header = () => {
           className="text-[calc(8px_+_.75vw)] text-[#ffffffc4] font-['Cinzel'] transition duration-300 ease-in-out hover:text-white">
           Expertise
         </Link>
-        {/* <Link
-          to=""
-          className="text-[calc(8px_+_.75vw)] text-[#ffffffc4] font-['Cinzel'] transition duration-300 ease-in-out hover:text-white">
-          Tour
-        </Link> */}
+
         <Link
           to="/keys/education"
           className="text-[calc(8px_+_.75vw)] text-[#ffffffc4] font-['Cinzel'] transition duration-300 ease-in-out hover:text-white">
@@ -123,6 +130,12 @@ const Header = () => {
           target='_blank'
           className="text-[calc(8px_+_.75vw)] text-[#ffffffc4] font-['Cinzel'] transition duration-300 ease-in-out hover:text-white">
           Shop
+        </Link>
+
+        <Link
+          to="/keys/chat"
+          className="text-[calc(8px_+_.75vw)] text-[#ffffffc4] font-['Cinzel'] transition duration-300 ease-in-out hover:text-white">
+          Chat
         </Link>
       </ul>
       <Link
