@@ -11,23 +11,18 @@ export default function ChatApp() {
 
     const [message, setMessage] = useState("")
     const [responses, setResponses] = useState([])
-    const close_chat = useRef()
     const chatInput = useRef()
     const btnSubmit = useRef();
     const chat_selection = useRef();
     const app_wrapper = useRef();
-    const loading_div = useRef();
     const mobile_chat_button = useRef();
     const form = useRef();
 
-    const[email, setEmail] = useState("")
 
 
 
 
 
-const [fadeOut, setFadeOut] = useState(false)
-const[displayNone, setDisplayNone] = useState(false);
 const[showDropdown, setDropdown] = useState(null);
 
  
@@ -36,18 +31,6 @@ const[showDropdown, setDropdown] = useState(null);
   
     const [isVisible, setIsVisble ] = useState(null);
 
-    const handleMenuClick = () => 
-    { 
-      setIsVisble(!isVisible);
-
-    };
-
-    const show_dropdown = () => 
-    {   
-      
-      setDropdown(!showDropdown)
-      console.log(showDropdown)
-    }
 
 
 
@@ -60,36 +43,9 @@ const[showDropdown, setDropdown] = useState(null);
   }
   
 
-const closeChat = () => { 
-  let wrapper = app_wrapper.current
-  let chat = chat_selection.current;
-  let mobileChat = mobile_chat_button.current
-  let form_btn = form.current
-  chat.style.width = "0px"
-  chat.style.padding = "0px"
-  mobileChat.style.visibility = "visible";
-  wrapper.style.gridTemplateColumns = "0px 3fr 1fr";
-  form_btn.style.width = "475px"
 
-  
 
-}
 
-const openChat = () =>{ 
-  let wrapper = app_wrapper.current
-  let chat = chat_selection.current;
-  let mobileChat = mobile_chat_button.current
-  let form_btn = form.current
-
-  mobileChat.style.visibility = "hidden";
-  chat.style.width = "auto";
-  chat.style.padding = "20px 32px";
-  wrapper.style.gridTemplateColumns = "335px 1fr 0.55fr "
-  form_btn.style.width = "475px"
-
-  
-
-}
 useEffect(() => {
   const handleKeyDown = (e) => {
       if (e.key === 'Enter' && !e.shiftKey) {
@@ -192,7 +148,7 @@ useEffect(() => {
 
           <div className = {styles.chat_conversation}>
 
-          <button onClick ={openChat} ref = {mobile_chat_button} className = {`${styles.close_chat} ${styles.chat_btn} ${styles.fixed_chat_btn}`}>
+          <button  ref = {mobile_chat_button} className = {`${styles.close_chat} ${styles.chat_btn} ${styles.fixed_chat_btn}`}>
                     {/* <Image src = {CloseIcon} width={100} height={100} /> */}
 </button>
 
