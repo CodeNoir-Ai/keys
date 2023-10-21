@@ -10,7 +10,7 @@ import styles from '../styles/expertise.module.css'
 
 
 
-const Education = () => {
+const Tour = () => {
     const educationSection = useRef();
 
     useEffect(() => {
@@ -93,4 +93,4 @@ const Education = () => {
   )
 }
 
-export default Education
+export default Tour
