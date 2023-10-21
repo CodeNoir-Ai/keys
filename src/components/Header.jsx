@@ -70,9 +70,9 @@ const Header = () => {
           Expertise
         </Link>
         <Link 
-          to="/keys/expertise"
+          to="/keys/tour"
           className="text-[calc(12px_+_2.75vw)] text-white font-['Cinzel'] transition duration-300 ease-in-out hover:text-white">
-          Expertise
+          Tour
         </Link>
         {/* <Link 
           to=""
@@ -113,6 +113,12 @@ const Header = () => {
           to="/keys/expertise"
           className="text-[calc(8px_+_.75vw)] text-[#ffffffc4] font-['Cinzel'] transition duration-300 ease-in-out hover:text-white">
           Expertise
+        </Link>
+
+        <Link 
+          to="/keys/tour"
+          className="text-[calc(12px_+_2.75vw)] text-white font-['Cinzel'] transition duration-300 ease-in-out hover:text-white">
+          Tour
         </Link>
 
         <Link
