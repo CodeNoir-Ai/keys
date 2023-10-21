@@ -970,8 +970,9 @@ body #cdawrap {
 
 }
 .tour_header{
-	font-size: calc(16px + 5vw);
-	color: #fff;
+	font-size: calc(12px + 2vw);
+	margin-bottom: 4rem;
+	color: #ffffff75;
 }
 
 .expertise-container {

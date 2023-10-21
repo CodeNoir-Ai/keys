@@ -23,7 +23,7 @@ const Tour = () => {
       ref={educationSection} 
       className="w-full h-auto px-8 flex items-center justify-center flex-col">
           <Header />
-          <section className="expertise-container pt-24 pb-14 px-8 w-full h-auto flex items-center justify-center flex-col">
+          <section className="expertise-container pt-28 pb-14 px-8 w-full h-auto flex items-center justify-center flex-col">
             <h1 className = {styles.tour_header}>19KEYS TOURS & DATES</h1>
               {/* <h1 className="w-full pt-[.8em] text-left text-[calc(16px_+_12vw)] text-white font-['Cinzel'] font-bold lg:pt-[.05em]">19KEYS TOURS & DATES</h1> */}
               <div className='flex items-center justify-center flex-col lg:flex-row-reverse lg:justify-between'>
